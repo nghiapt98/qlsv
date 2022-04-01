@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add"
+    android:background="@color/blue">
+    <TextView
+        android:textColor="@color/red"
+        android:layout_marginTop="30dp"
+        android:text="Thêm Sinh Viên "
+        android:textSize="32dp"
+        android:paddingLeft="100dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="Họ và tên"
+            android:layout_width="160dp"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/hoten"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="Ngày tháng sinh"
+            android:layout_width="160dp"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/ngaythang"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="Địa chỉ"
+            android:layout_width="160dp"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/diachi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnthem"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="30dp"
+        android:text="Thêm"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+
+
+</LinearLayout>
